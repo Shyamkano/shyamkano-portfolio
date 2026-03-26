@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌌 Portfolio v2: Intelligent Systems & Backend Architecture
 
-## Getting Started
+Welcome to the official repository for my professional portfolio. This project is a high-performance, dark-themed showcase designed to highlight my work in **Applied AI**, **Backend Orchestration**, and **Modern Web Development**.
 
-First, run the development server:
+**Live Demo**: [ghanshyamkanojiya.vercel.app](https://ghanshyamkanojiya.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👨‍💻 About Me
+I'm **Ghanshyam Kanojiya**, a developer focused on building practical software systems that solve real-world challenges. My expertise lies at the intersection of **Scalable Backend Architecture** and **Cognitive AI Systems**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Featured Systems
 
-## Learn More
+### 🎵 Groovli Ecosystem 
+*   **Groovli App**: A minimalist, high-fidelity music streaming application built with **React Native & Expo**. optimized for <0.4s response times.
+*   **Music API**: A robust **Node.js/Express** backend engine featuring **Redis caching** and **Geo-Bypass logic** to deliver sub-200ms metadata latency.
 
-To learn more about Next.js, take a look at the following resources:
+### 🧠 Beatus: AI Wellness Suite
+*   **Beatus Mobile**: A health-tech application that fuses **Google Fit SDK** data with **ML mood prediction** to generate real-time adaptive binaural beats.
+*   **Beatus Engine**: A multi-modal AI infrastructure using **NLP (BART)** and **CV (VGG-Face)** to transform physiological states into localized auditory therapy.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🕶️ VisionCart Pro
+*   A premium e-commerce platform for high-end eyewear, featuring a glassmorphic UI, **Supabase Magic Link** authentication, and real-time inventory management.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Frontend & UI
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS & Glassmorphism
+- **Animations**: Framer Motion & GSAP
+- **Icons**: Lucide React
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Backend & Cloud
+- **Languages**: TypeScript, Python
+- **Engines**: Node.js, Flask
+- **Database**: PostgreSQL (Neon), Supabase
+- **Caching**: Redis
+- **ORM**: Drizzle, Prisma
+
+---
+
+## 🏗️ Architecture Highlights
+
+-   **Multi-Modal AI Pipeline**: Weighted fusion of NLP, Computer Vision, and IoT sensor data.
+-   **Dynamic Visual Mockups**: Custom-engineered modal frames that adapt based on project type (Mobile, Web, or Research).
+-   **Responsive Performance**: Optimized for Core Web Vitals with zero-latency visual transitions.
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm / yarn / pnpm
+
+### Installation
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/Shyamkano/shyamkano-portfolio.git
+    cd shyamkano-portfolio
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
+
+4.  **Build for production**:
+    ```bash
+    npm run build
+    ```
+
+---
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact
+- **LinkedIn**: [Ghanshyam Kanojiya](https://linkedin.com/in/ghanshyamkanojiya)
+- **Website**: [ghanshyamkanojiya.vercel.app](https://ghanshyamkanojiya.vercel.app)
+- **GitHub**: [@Shyamkano](https://github.com/Shyamkano)
