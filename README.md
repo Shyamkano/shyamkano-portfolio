@@ -2,7 +2,7 @@
 
 Welcome to the official repository for my professional portfolio. This project is a high-performance, dark-themed showcase designed to highlight my work in **Applied AI**, **Backend Orchestration**, and **Modern Web Development**.
 
-**Live Demo**: [ghanshyamkanojiya.vercel.app](https://ghanshyamkanojiya.vercel.app)
+**Live Demo**: [shyamkano-portfolio.vercel.app](https://shyamkano-portfolio.vercel.app/)
 
 ---
 
@@ -89,5 +89,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 - **LinkedIn**: [Ghanshyam Kanojiya](https://linkedin.com/in/ghanshyamkanojiya)
-- **Website**: [ghanshyamkanojiya.vercel.app](https://ghanshyamkanojiya.vercel.app)
+- **Website**: [shyamkano-portfolio.vercel.app](https://shyamkano-portfolio.vercel.app/)
 - **GitHub**: [@Shyamkano](https://github.com/Shyamkano)
