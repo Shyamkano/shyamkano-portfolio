@@ -5,7 +5,7 @@ import CustomCursor from "../components/CustomCursor";
 import FloatingControls from "../components/FloatingControls";
 
 export const metadata: Metadata = {
-  title: "DevPortfolio | Modern Developer",
+  title: "Shyamkano | Portfolio",
   description: "A premium developer portfolio built with Next.js and Framer Motion",
 };
 
