@@ -128,7 +128,7 @@ const Projects = () => {
         "Privacy-First: On-device storage & No data harvesting"
       ],
       tags: ["React Native", "Expo", "AI", "TypeScript", "LLM"],
-      link: "https://github.com/Shyamkano/Brief",
+      link: "https://brief-stage.vercel.app/",
       github: "https://github.com/Shyamkano/Brief"
     },
     {
