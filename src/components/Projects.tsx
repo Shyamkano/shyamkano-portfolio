@@ -29,6 +29,27 @@ const Projects = () => {
 
   const projects: Project[] = [
     {
+      id: 11,
+      title: "Brief",
+      category: "AI News Intelligence",
+      type: "mobile",
+      image: "/images/brief_banner.png",
+      modalImage: "/images/image.png",
+      description: "Next-gen AI news platform that analyzes, fact-checks, and summarizes global news in real-time.",
+      problem: "Misinformation and information overload make it impossible to stay objectively informed.",
+      solution: "Multi-layered AI analysis (Groq, Gemini, Mistral) with built-in fact-verification and interactive Q&A.",
+      impact: "Provides users with a clean, bias-free understanding of global events with instant summarized intelligence.",
+      features: [
+        "Quad-AI Analysis Chain (Groq/Gemini/Mistral/HF)",
+        "Real-time Live Fact-Checking & Trust Scores",
+        "Interactive 'Chat with News' Interface",
+        "Privacy-First: On-device storage & No data harvesting"
+      ],
+      tags: ["React Native", "Expo", "AI", "TypeScript", "LLM"],
+      link: "https://github.com/Shyamkano/Brief",
+      github: "https://github.com/Shyamkano/Brief"
+    },
+    {
       id: 10,
       title: "VisionCart Pro",
       category: "E-Commerce",

@@ -72,7 +72,7 @@ const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
             {project.type === 'mobile' ? (
               <div className="phone-frame">
                 <div className="phone-screen">
-                  <img src={project.modalImage || project.image} alt={project.title} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src={project.modalImage || project.image} alt={project.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
               </div>
             ) : project.type === 'research' || project.type === 'app' ? (

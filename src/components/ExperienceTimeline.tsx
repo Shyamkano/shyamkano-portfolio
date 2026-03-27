@@ -67,6 +67,7 @@ const ExperienceTimeline = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: index * 0.2 }}
+            className="timeline-item"
             style={{
               display: 'flex',
               justifyContent: index % 2 === 0 ? 'flex-end' : 'flex-start',
@@ -78,7 +79,7 @@ const ExperienceTimeline = () => {
             } as CSSProperties}
           >
             {/* Dot */}
-            <div style={{
+            <div className="timeline-dot" style={{
               position: 'absolute',
               left: '50%',
               top: '20px',
@@ -99,7 +100,7 @@ const ExperienceTimeline = () => {
             </div>
 
             {/* Content Card */}
-            <div className="glass" style={{
+            <div className="glass timeline-card" style={{
               width: '85%',
               padding: '30px',
               borderRadius: '24px',
@@ -107,7 +108,7 @@ const ExperienceTimeline = () => {
               margin: index % 2 === 0 ? '0 40px 0 0' : '0 0 0 40px',
               textAlign: index % 2 === 0 ? 'right' : 'left'
             } as CSSProperties}>
-              <span style={{
+              <span className="timeline-year" style={{
                 color: 'var(--accent-secondary)',
                 fontSize: '14px',
                 fontWeight: '700',
@@ -115,7 +116,7 @@ const ExperienceTimeline = () => {
               }}>{exp.year}</span>
               <h3 style={{ fontSize: '24px', fontWeight: '800', color: 'white', margin: '10px 0' }}>{exp.title}</h3>
               <p style={{ color: 'var(--text-secondary)', fontSize: '15px', lineHeight: '1.6', marginBottom: '15px' }}>{exp.description}</p>
-              <div style={{
+              <div className="timeline-skills" style={{
                 display: 'flex',
                 gap: '8px',
                 flexWrap: 'wrap',
@@ -139,37 +140,40 @@ const ExperienceTimeline = () => {
       <style jsx>{`
         @media (max-width: 768px) {
           .timeline-line {
-            left: 20px !important;
+            left: 16px !important;
+            width: 3px !important;
+            transform: none !important;
+            opacity: 0.8;
+            box-shadow: 0 0 15px var(--accent-primary);
           }
-          .timeline-line + div {
+          .timeline-item {
             justify-content: flex-start !important;
-            padding-left: 50px !important;
+            padding-left: 45px !important;
             padding-right: 0 !important;
-          }
-          .timeline-line + div > div:first-child {
-            left: 20px !important;
-          }
-           .timeline-line + div > div:last-child {
+            margin-bottom: 40px !important;
             width: 100% !important;
-            margin: 20px 0 0 0 !important;
+          }
+          .timeline-dot {
+            left: 16px !important;
+            width: 28px !important;
+            height: 28px !important;
+            top: 24px !important;
+            transform: translateX(-50%) !important;
+            box-shadow: 0 0 15px var(--accent-primary) !important;
+          }
+          .timeline-card {
+            width: calc(100% - 10px) !important;
+            margin: 0 !important;
             text-align: left !important;
+            padding: 24px !important;
+            border-radius: 20px !important;
           }
-          section > div:last-child > div {
-             padding-left: 50px !important;
-             padding-right: 0 !important;
-             justify-content: flex-start !important;
+          .timeline-skills {
+            justify-content: flex-start !important;
           }
-           section > div:last-child > div > .glass {
-             margin: 0 !important;
-             text-align: left !important;
-             width: 100% !important;
-           }
-           section > div:last-child > div > div:first-child {
-             left: 20px !important;
-           }
-            section > div:last-child > div > div > div {
-             justify-content: flex-start !important;
-           }
+          .timeline-year {
+            font-size: 12px !important;
+          }
         }
       `}</style>
     </section>
