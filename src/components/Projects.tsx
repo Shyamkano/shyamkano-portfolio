@@ -29,6 +29,26 @@ const Projects = () => {
 
   const projects: Project[] = [
     {
+      id: 12,
+      title: "LUMEN",
+      category: "Narrative Engine",
+      type: "web",
+      image: "/images/lumen_banner.png",
+      description: "A professional writing and archiving platform built for high-quality stories and code.",
+      problem: "Online articles are easily lost, and it is hard to keep track of who originally created an idea when it gets shared or edited by others.",
+      solution: "Created a smart writing tool with an AI assistant and a 'Life-tree' system that tracks every version and edit of a post to keep the history clear.",
+      impact: "Allows writers to publish and save their work in a clean, professional space where original ideas are protected and tracked forever.",
+      features: [
+        "Smart AI helper to help you write better articles",
+        "Version tracking to see how stories change over time",
+        "Clear credit system for original and shared ideas",
+        "Clean, easy-to-read dark and white modes"
+      ],
+      tags: ["Next.js", "React", "Supabase", "Mistral AI", "TipTap", "Tailwind"],
+      link: "https://lumen-archive.vercel.app/",
+      github: "https://github.com/Shyamkano/LUMEN"
+    },
+    {
       id: 6,
       title: "Groovli",
       category: "Music Streaming",
