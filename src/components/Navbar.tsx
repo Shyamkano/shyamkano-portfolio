@@ -111,7 +111,7 @@ const Navbar = () => {
               <motion.button onClick={toggleTheme} style={{ background: 'var(--glass-bg)', border: '1px solid var(--glass-border)', borderRadius: '8px', width: '34px', height: '34px', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: 'var(--accent-secondary)', padding: '0' } as CSSProperties} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} title="Toggle theme">
                 {theme === 'default' ? <Moon size={15} /> : <Zap size={15} />}
               </motion.button>
-              <motion.a href="/Ghanshyam_Kanojiya_CV.pdf" target="_blank" className="btn-primary" style={{ padding: '8px 16px', fontSize: '13px', borderRadius: '8px', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '6px' } as CSSProperties} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <motion.a href="/Ghanshyam_Kanojiya_Resume.pdf" target="_blank" className="btn-primary" style={{ padding: '8px 16px', fontSize: '13px', borderRadius: '8px', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '6px' } as CSSProperties} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 Resume <FileText size={14} />
               </motion.a>
             </div>
