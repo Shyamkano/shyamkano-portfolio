@@ -150,7 +150,7 @@ const Hero = () => {
           </motion.button>
 
           <motion.a
-            href="/Ghanshyam_Kanojiya_CV.pdf"
+            href="/Ghanshyam_Kanojiya_Resume.pdf"
             target="_blank"
             className="glass"
             style={{
