@@ -63,7 +63,7 @@ const ResearchSection = () => {
             </div>
 
             <motion.a
-              href="ijair-volume-13-issue-1-xiii-january-march-2026.pdf"
+              href="https://zenodo.org/records/20344031"
               target="_blank"
               className="btn-primary"
               whileHover={{ scale: 1.05 }}
