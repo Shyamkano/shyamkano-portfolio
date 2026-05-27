@@ -128,7 +128,7 @@ const Contact = () => {
             <span style={{ fontSize: '18px', fontWeight: '500' }}>India</span>
           </div>
           <motion.a
-            href="/Ghanshyam_Kanojiya_resume.pdf"
+            href="/Ghanshyam_Kanojiya_Resume.pdf"
             target="_blank"
             style={{
               padding: '12px 24px',
